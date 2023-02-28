@@ -1,0 +1,9 @@
+{
+	"name": "headless-cms",
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"services/*"
+	],
+	"packageManager": "yarn@3.4.1"
+}
