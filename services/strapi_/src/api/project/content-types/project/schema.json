@@ -39,7 +39,10 @@
       "target": "api::technology.technology",
       "inversedBy": "projects"
     },
-    "link": {
+    "source_code_link": {
+      "type": "string"
+    },
+    "deployed_link": {
       "type": "string"
     }
   }

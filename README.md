@@ -13,7 +13,7 @@ In this course, we need to create a little portfolio with Nuxt3 for the frontend
 	- Project name ✅
 	- Description ✅
 	- Technologies used on the project (relation with technologies and projects in strapi) ✅
-	- Useful link (if exist)
+	- Useful link (if exist) ✅
 	- return back button ✅ 
 
 2- Go further

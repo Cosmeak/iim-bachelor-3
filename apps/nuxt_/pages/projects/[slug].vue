@@ -39,6 +39,11 @@ function defineHead() {
 				</div>
 	
 				<div class="mt-8" v-html="project?.content"></div>
+
+				<div v-if="project?.source_code_link || project?.deployed_link" class="text-sm mt-8 flex gap-4">
+					<a v-if="project?.source_code_link" :href="project.source_code_link" class="bg-dark text-light px-2 py-1 rounded hover:bg-secondary duration-200">Code source</a>
+					<a v-if="project?.deployed_link" :href="project.deployed_link" class="bg-dark text-light px-2 py-1 rounded hover:bg-secondary duration-200">Projet en ligne</a>
+				</div>
 			</template>
 		</Card>
 	
