@@ -22,13 +22,6 @@ export default defineNuxtConfig({
 			theme: {
 				extend: {
 					colors: {
-						'primary': {
-							'lighten': '#FFF0D6',
-							'light': '#FFDEA3',
-							DEFAULT: '#FDBC13',
-							'dark': '#5D4200',
-							'darken': '#261900',
-						},
 						'secondary': {
 							'lighten': '#D6E3FF',
 							'light': '#A9C7FF',
@@ -38,13 +31,6 @@ export default defineNuxtConfig({
 						},
 						'light': '#F0F8FF',
 						'dark': '#24231E',
-						'danger': '#F91F23',
-						'warning': {
-							'light': '#F6C652',
-							DEFAULT: '#F97026',
-						},
-						'success': '#75CC33',
-						'info': '#C280B6',
 					},
 				}
 			}
