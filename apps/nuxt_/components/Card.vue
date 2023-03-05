@@ -1,6 +1,6 @@
 <template>
 	<div class="bg-white shadow text-dark rounded overflow-auto flex flex-col">
-		<div class="bg-secondary text-light p-2 text-xl" v-if="$slots.header">
+		<div class="bg-gray-900 text-light p-2 text-xl" v-if="$slots.header">
 			<slot name="header" />
 		</div>
 
