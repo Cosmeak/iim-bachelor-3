@@ -10,6 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.2.2"
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@types/node": "^18.14.2",
+    "nuxt": "^3.2.3"
+  },
+  "dependencies": {
+    "@nuxtjs/strapi": "^1.8.1"
   }
 }

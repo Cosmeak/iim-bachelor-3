@@ -5,5 +5,9 @@
 		"apps/*",
 		"services/*"
 	],
-	"packageManager": "yarn@3.4.1"
+	"packageManager": "yarn@3.4.1",
+	"scripts": {
+		"nuxt-dev": "yarn workspace nuxt_ dev",
+		"strapi-dev": "yarn workspace strapi develop"
+	}
 }
